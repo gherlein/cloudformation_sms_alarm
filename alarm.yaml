@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-# Upload in the us-east-1 region
+Transform: AWS::Serverless-2016-10-31
 Description: "This CloudFormation template will set up an SMS Billing Alarm."
 Parameters:
   AlarmThreshold:
